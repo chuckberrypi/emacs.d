@@ -18,8 +18,8 @@
 (defvar go-use-gocheck-for-testing nil
   "If using gocheck for testing when running the tests -check.f will be used instead of -run to specify the test that will be ran. Gocheck is mandatory for testing suites.")
 
-(defvar go-tab-width 8
+(defvar go-tab-width 4
   "Set the `tab-width' in Go mode. Default is 8.")
 
-(defvar go-use-gometalinter nil
+(defvar go-use-gometalinter t 
   "Use gometalinter if the variable has non-nil value.")
